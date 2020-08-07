@@ -1,4 +1,9 @@
 ---
 label: FooBar
 hide_body: false
-fields: []
+fields:
+- name: foo
+  type: text
+  config:
+    required: false
+  label: Foo
