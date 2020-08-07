@@ -1,4 +1,28 @@
 ---
 label: Portfolio Company
 hide_body: false
-fields: []
+fields:
+- name: company_name
+  type: text
+  config:
+    required: false
+  label: Company Name
+- name: company_url
+  type: text
+  config:
+    required: false
+  label: Company URL
+- name: company_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Company Description
+- name: company_logo
+  type: file
+  config:
+    maxSize: 64
+  label: Company Logo
