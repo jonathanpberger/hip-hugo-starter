@@ -16,6 +16,13 @@ sections:
   match: "**/*"
   templates:
   - post
+- type: directory
+  path: content/portfolio-company/**/*
+  label: Portfolio Companies
+  create: all
+  match: "**/*"
+  templates:
+  - portfolio-company
 - type: heading
   label: Data
 - type: directory
